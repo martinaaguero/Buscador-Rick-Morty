@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* ----------- ESTILO DE BARRA BUSCADORA ------------*/
+.container1 {
+    display: flex;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px ;
+}
+
+
+ 
+input {
+    outline: none;
+    box-sizing: border-box;
+    height: 50px;
+    width: 0;
+    border-radius: 50px;
+    font-size: 20px;
+    border: 2px solid rgba(65, 183, 185, 0.844);
+    transition: all .7s ease;
+    margin-top: 10px;
+    padding: auto;
+}
+
+
+::placeholder {
+    color: grey;
+    padding: 10px;
+  
+}
+
+.boton {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 80px;
+    height: 85px;
+    background-color: rgba(59, 168, 170, 0.844);
+    border-radius: 50px;
+    text-align: center;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.boton i {
+    font-size: 25px;
+    color: white;
+    line-height: 80px;
+    transition: all .7s ease;
+}
+
+
+.container1:hover input {
+    width: 350px;
+}
+
+
+.container1:hover i {
+    transform: rotate(-360deg);
+}
+
+
+.boton:hover {
+    background: rgb(0, 126, 128);
+}
+

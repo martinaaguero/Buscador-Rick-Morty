@@ -1,0 +1,56 @@
+
+/* ----------------- ESTILO DE CAJA CON PERSONAJES ---------------- */
+
+.container2 {
+    display: inline-block;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 80px;
+}
+
+.contenedor-personajes {
+    margin-top: 80px;
+    margin-left: 55px;
+    padding: 10px;
+    list-style: none;
+}
+
+.personajes {
+    height: 300px;
+    border-radius: 50%;
+    border: 10px double rgba(0, 126, 128);
+
+}
+
+.contenedor-personajes p {
+    font-size: 20px;
+    text-align: center;
+    font-style: oblique;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(0, 94, 94);
+}
+
+
+/*-------------------------- ESTILO FORM SELECT ---------------------*/
+
+.container-formulario{
+    display: flex;
+position: absolute;
+top: 38%;
+left: 43%;
+padding: 10px;
+}
+
+.selector{
+    position: absolute;
+    top: 90%;
+    left: 100%;
+height: 30px;
+font-size: 15px;
+font-family: 'Times New Roman', Times, serif;
+margin: auto;
+padding: auto;
+background-color: rgba(202, 251, 253, 0.844);
+cursor: pointer;
+}
+
