@@ -9,8 +9,8 @@ margin: 10px;
 padding: 5px;
 text-align: center;
 font-size: 35px;
-font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-color: rgba(50, 145, 147, 0.844);
+font-family: cursive;
+color: rgba(40, 114, 116, 0.844);
 font-weight: 500px;
 }
 
@@ -19,6 +19,6 @@ font-weight: 500px;
     display: flex;
 margin: auto;
 padding: 10px;
-height: 150px;
+height: 160px;
 
 }
